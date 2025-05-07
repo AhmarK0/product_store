@@ -16,6 +16,8 @@ if someone to post req to /product then do the following
 5. send a 201 response and json with success true and data newproduct
 */
 
+//comment added
+
 app.use(express.json()); // it is a middleware allow us to use json in req.body
 
 app.use("/api/products", productRoutes);
